@@ -7,6 +7,7 @@ export const user = sqliteTable("user", {
   hashedPassword: text("hashed_password"),
 })
 
+
 export const session = sqliteTable("session", {
   id: text("id").primaryKey(),
   expiresAt: int("expires_at", { mode: "timestamp" }).notNull(),

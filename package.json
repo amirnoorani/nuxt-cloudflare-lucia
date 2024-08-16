@@ -8,8 +8,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "db:generate": "drizzle-kit generate:sqlite",
-    "db:migrate": "wrangler d1 migrations apply demo --local",
-    "db:migrate:prod": "wrangler d1 migrations apply demo",
+    "db:migrate": "wrangler d1 migrations apply WEBBBILO_FRONT_DB --local",
+    "db:migrate:prod": "wrangler d1 migrations apply WEBBBILO_FRONT_DB",
     "db:studio": "drizzle-kit studio"
   },
   "devDependencies": {
