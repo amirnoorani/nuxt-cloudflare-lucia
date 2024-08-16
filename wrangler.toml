@@ -1,6 +1,6 @@
 [[d1_databases]]
 binding = "DB" # i.e. available in your Worker on env.DB
-database_name = "demo"
-database_id = "6ac5edb1-4e08-41d2-9950-522d926cdfa9"
+database_name = "nuxt_lucia"
+database_id = "52253618-4e9f-484d-93ee-6962ba5c04ac"
 preview_database_id = "DB"
 migrations_dir = "./server/db/migrations"

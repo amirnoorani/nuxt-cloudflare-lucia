@@ -8,7 +8,6 @@ node_modules
 dist
 .DS_Store
 db.sqlite
-wrangler.toml
 .wrangler
 
 .wrangler/state/v3
