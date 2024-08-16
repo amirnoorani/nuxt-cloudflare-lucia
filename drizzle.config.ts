@@ -6,6 +6,6 @@ export default defineConfig({
   driver: "d1",
   dbCredentials: {
     wranglerConfigPath: "wrangler.toml",
-    dbName: "WEBBBILO_FRONT_DB",
+    dbName: "nuxt_lucia",
   },
 })
